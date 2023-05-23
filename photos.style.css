@@ -187,9 +187,37 @@ label:hover{
     transition: .0s
 }
 @media(max-width: 700px){
-    .photo-gallery{
-        display: row;
-    }
+   .pic img{
+     height: 80%;
+     width: 130%;
+   
+     
+   }
+   label{
+    font-size: 14px;
+    line-height: 30px;
+   }
+   .photo-gallery{
+    grid-row-gap: 0px;
+    grid-column-gap: 50px;
+   }
+   .pic::after{
+    width: 130%;
+    height: 0;
+    bottom: -32%;
     
-    
+   }
+   .pic:hover::after{
+    height: 80%;
+    bottom: 11%;
+    margin-top: 60px;
+   }
+   .pic:hover::before{
+    margin-top: 120px;
+   }
+   .pic::before{
+    left: 65%;
+    transform: translate(-50% -65%);
+
+   }
 }

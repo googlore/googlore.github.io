@@ -188,34 +188,34 @@ label:hover{
 }
 @media(max-width: 1000px){
    .pic img{
-     height: 150%;
-     width: 150%;   
+     height: 190%;
+     width: 100%;   
    }
    label{
     font-size: 14px;
     line-height: 30px;
    }
    .photo-gallery{
-    grid-row-gap: 170px;
+    grid-row-gap: 320px;
     grid-column-gap: 140px;
     grid-template-columns: repeat(1,1fr);
    }
    .pic::after{
-    width: 150%;
+    width: 100%;
     height: 0;
-    bottom: -32%;
+    bottom: 100%;
    }
    .pic:hover::after{
-    height: 150%;
-    bottom: -59%;
+    height: 191%;
+    bottom: -100%;
     margin-top: -23px;
    }
    .pic:hover::before{
     margin-top: 250px;
    }
    .pic::before{
-    left: 80%;
-    top: 50%;
-    transform: translate(-50% -80%);
+    left: 50%;
+    top: 70%;
+    transform: translate(-70% -50%);
    }
 }

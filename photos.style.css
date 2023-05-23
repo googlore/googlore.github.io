@@ -190,8 +190,6 @@ label:hover{
    .pic img{
      height: 80%;
      width: 130%;
-   
-     
    }
    label{
     font-size: 14px;
@@ -205,7 +203,6 @@ label:hover{
     width: 130%;
     height: 0;
     bottom: -32%;
-    
    }
    .pic:hover::after{
     height: 80%;
@@ -218,6 +215,5 @@ label:hover{
    .pic::before{
     left: 65%;
     transform: translate(-50% -65%);
-
    }
 }

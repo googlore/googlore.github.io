@@ -191,9 +191,19 @@ label:hover{
      height: 190%;
      width: 100%;   
    }
+   .container{
+     overflow: hidden;
+     height: 100%;
+   }
    label{
-    font-size: 14px;
+    font-size: 11px;
     line-height: 30px;
+    margin: 0 10px;
+    margin-left: 1;
+    font-weight: bold;
+   }
+   h3{
+    padding: 0 25px;
    }
    .photo-gallery{
     grid-row-gap: 320px;

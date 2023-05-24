@@ -125,6 +125,22 @@ nav .fa{
     .nav-links ul{
     padding: 30px;
     }
+    .textbox{
+        height: 100%;
+        overflow: hidden;
+    }
+    .domicile{
+        height: 100%;
+        overflow: hidden;   
+    }
+    .admin{
+        height: 100%;
+        overflow: hidden;
+    }
+    .header{
+        height: 100%;
+        overflow: hidden;
+    }
 }
 
 /*domicile*/

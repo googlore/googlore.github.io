@@ -216,7 +216,7 @@ label:hover{
     grid-column-gap: 140px;
     grid-template-columns: repeat(1,1fr);
     margin: auto;
-    padding-bottom: 60%;
+    padding-bottom: 96%;
    }
    .pic::after{
     width: 100%;
